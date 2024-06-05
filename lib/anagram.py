@@ -19,7 +19,5 @@ class Anagram:
 
         return matches
 
-# Example usage:
-# listen = Anagram("listen")
-# print(listen.match(['enlists', 'google', 'inlets', 'banana']))
-# => ['inlets']
+listen = Anagram ("listen")
+print(listen.match(['enlists', 'google', 'inlets', 'banana']))
